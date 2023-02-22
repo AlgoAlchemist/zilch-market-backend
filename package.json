@@ -1,0 +1,14 @@
+{
+  "name": "zilch-ledger2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
