@@ -4,16 +4,16 @@ use solana_program::program_error::ProgramError;
 pub enum zilchInstruction {
     Addzilchprogram {
         program_hash: String,
-        inputs: u8,
-        program_code: String,
+        outputs: u8,
+        proof_account: String,
     },
 }
 
 #[derive(BorshDeserialize)]
 struct zilchProgramPayload {
     program_hash: String,
-    inputs: u8,
-    program_code: String,
+    outputs: u8,
+    proof_account: String,
 }
 
 impl zilchInstruction {
@@ -25,8 +25,8 @@ impl zilchInstruction {
         Ok(match variant {
             0 => Self::Addzilchprogram {
                 program_hash: payload.program_hash,
-                inputs: payload.inputs,
-                program_code: payload.program_code,
+                outputs: payload.outputs,
+                proof_account: payload.proof_account,
             },
             _ => return Err(ProgramError::InvalidInstructionData),
         })

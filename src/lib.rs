@@ -25,8 +25,8 @@ pub fn process_instruction(
 ) -> ProgramResult {
   let instruction = zilchInstruction::unpack(instruction_data)?;
   match instruction {
-    zilchInstruction::Addzilchprogram { program_hash, inputs, program_code } => {
-      add_zilch_program(program_id, accounts, program_hash, inputs, program_code)
+    zilchInstruction::Addzilchprogram { program_hash, outputs, proof_account } => {
+      add_zilch_program(program_id, accounts, program_hash, outputs, proof_account)
     }
   }
 }
@@ -35,8 +35,8 @@ pub fn add_zilch_program(
   program_id: &Pubkey,
   accounts: &[AccountInfo],
   program_hash: String,
-  inputs: u8,
-  program_code: String
+  outputs: u8,
+  proof_account: String
 ) -> ProgramResult {
   msg!("Adding zilch program...");
   msg!("program_hash: {}", program_hash);
@@ -81,8 +81,8 @@ pub fn add_zilch_program(
   msg!("borrowed account data");
 
   account_data.program_hash = program_hash;
-  account_data.inputs = inputs;
-  account_data.program_code = program_code;
+  account_data.outputs = outputs;
+  account_data.proof_account = proof_account;
   account_data.is_initialized = true;
 
   msg!("serializing account");
