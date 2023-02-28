@@ -40,8 +40,8 @@ pub fn add_zilch_program(
 ) -> ProgramResult {
   msg!("Adding zilch program...");
   msg!("program_hash: {}", program_hash);
-  msg!("inputs: {}", inputs);
-  msg!("program_code: {}", program_code);
+  msg!("outputs: {}", outputs);
+  msg!("proof_account: {}", proof_account);
 
 // Get Account iterator
   let account_info_iter = &mut accounts.iter();
@@ -55,7 +55,7 @@ pub fn add_zilch_program(
   let (pda, bump_seed) = Pubkey::find_program_address(&[initializer.key.as_ref(), program_hash.as_bytes().as_ref(),], program_id);
 
 // Calculate account size required
-  let account_len: usize = 1 + 1 + (4 + program_hash.len()) + (4 + program_code.len());
+  let account_len: usize = 1 + 1 + (4 + program_hash.len()) + (4 + proof_account.len());
 
 // Calculate rent required
   let rent = Rent::get()?;

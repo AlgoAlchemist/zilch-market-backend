@@ -1,0 +1,13 @@
+/Users/dm/Documents/blob_solana/warpdrive/zilch-market-backend/target/release/deps/quote-0f9ab1fb6c19de98.rmeta: /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/lib.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ext.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/format.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ident_fragment.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/to_tokens.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/runtime.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/spanned.rs
+
+/Users/dm/Documents/blob_solana/warpdrive/zilch-market-backend/target/release/deps/libquote-0f9ab1fb6c19de98.rlib: /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/lib.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ext.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/format.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ident_fragment.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/to_tokens.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/runtime.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/spanned.rs
+
+/Users/dm/Documents/blob_solana/warpdrive/zilch-market-backend/target/release/deps/quote-0f9ab1fb6c19de98.d: /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/lib.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ext.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/format.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ident_fragment.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/to_tokens.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/runtime.rs /Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/spanned.rs
+
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/lib.rs:
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ext.rs:
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/format.rs:
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/ident_fragment.rs:
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/to_tokens.rs:
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/runtime.rs:
+/Users/dm/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.23/src/spanned.rs:

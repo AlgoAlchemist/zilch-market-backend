@@ -1,0 +1,2 @@
+Error: Function _ZN94_$LT$$RF$mut$u20$bincode..de..Deserializer$LT$R$C$O$GT$$u20$as$u20$serde..de..Deserializer$GT$17deserialize_tuple17he000e9c543119abfE Stack offset of 11472 exceeded max offset of 4096 by 7376 bytes, please minimize large stack variables
+Error: Function _ZN14solana_program4vote5state9VoteState11deserialize17h74770f319be0cd67E Stack offset of 5664 exceeded max offset of 4096 by 1568 bytes, please minimize large stack variables
